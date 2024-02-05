@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        docker { image 'debian'
+        docker { image 'ubuntu'
         args '-u root:root'
         }
     }
